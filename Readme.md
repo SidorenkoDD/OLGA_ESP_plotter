@@ -4,7 +4,7 @@ This module, in conjunction with the OLGA model, allows to build the pressure an
 ## How to use
 1. Set ESP in OLGA model and choose GASDEGRADATION mode.
         
-        Use [pyfas](https://github.com/gpagliuca/pyfas) module to create your head & rate characteristics
+    Use [pyfas](https://github.com/gpagliuca/pyfas) module to create your head & rate characteristics
 
 2. Use ParametricStudy to calculate cases.
 3. After calculation create OLGAHRPlotter object and set path to ParametricStudy results folder.
